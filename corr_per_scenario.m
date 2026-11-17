@@ -88,7 +88,6 @@ for i=0.5:nV+0.5
     plot([i i],[0.5 nV+0.5],'-','Color',[0.82 0.82 0.82]);
     plot([0.5 nV+0.5],[i i],'-','Color',[0.82 0.82 0.82]);
 end
-title(ax,'Average within-scenario correlation matrix');
 if exist('exportgraphics','file')
     exportgraphics(fig,'fig4_corr_heatmap.png','Resolution',300);
 end
